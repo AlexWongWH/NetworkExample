@@ -1,0 +1,8 @@
+#ignore the build directory
+
+/src/build
+
+
+#figure out a way to include the asio lib, either using scripts or cmake
+#ignoring the asio lib
+/lib/asio-1.28.0

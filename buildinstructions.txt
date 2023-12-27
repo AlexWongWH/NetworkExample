@@ -1,0 +1,7 @@
+
+#specify the directory to build to
+cmake -B src/build .
+
+
+#create project
+make src/build
