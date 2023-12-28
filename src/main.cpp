@@ -5,7 +5,7 @@
 
 int main() {
 
-  firstasiofunction();
+  basics();
 
   return 0;
 }

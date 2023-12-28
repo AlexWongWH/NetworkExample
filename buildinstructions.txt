@@ -5,3 +5,47 @@ cmake -B src/build .
 
 #create project
 make src/build
+in the build directory
+` make ` command
+
+Notes:
+
+Creating a trading simulator
+1. Client-side and Server side must be able to exchange data
+
+Server side
+1. Running the server & wait for client request
+2. Send back acknowledge msg to respective clients
+3. Contains `database` which holds the request -> (`Process` in the simulator)
+
+Client side
+1. Connect to server
+2. Has to send request to server
+
+
+Streched goals
+Server supports multiple client request
+Profiler
+make client request generic...
+create linux gui
+configure cmake to pull dependencies from websit
+
+really Streched goals
+multi-thread... 
+server creating a thread for each client?
+
+
+Prototype 1:
+Create seperate client and server executable
+run both and check if it is able to receive the message
+-> different terminal
+-> different pc... 
+
+
+
+
+
+
+
+
+
