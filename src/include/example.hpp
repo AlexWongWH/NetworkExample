@@ -187,6 +187,7 @@ void AsyncExample4_Classes() {
   io.run();
 }
 
+// examples of timers
 void basics() {
 
   // one I/O execution context -> the link between program and os I/O system

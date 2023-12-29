@@ -2,11 +2,26 @@
 #specify the directory to build to
 cmake -B src/build .
 
-
 #create project
 make src/build
 in the build directory
 ` make ` command
+
+
+#cleaning up the build directory
+# -r recursively remove directories and content
+# -f forcefully remove files without prompt
+rm -rf *
+
+
+#Running client and server:
+
+
+
+
+
+
+
 
 Notes:
 
